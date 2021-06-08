@@ -1,0 +1,97 @@
+[{
+  "_id": {
+    "$oid": "608070dd80e61a501c124c4a"
+  },
+  "createdAt": {
+    "$date": "2021-04-21T18:37:12.691Z"
+  },
+  "name": "Jhon Doe",
+  "email": "doe@walla.com",
+  "password": "$2b$10$l0248F2Oo7NSY8SiFU942uQ6cYyDZ04nQs07hL0MdRul0kXH.c3oW",
+  "role": "user",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6080713880e61a501c124c4b"
+  },
+  "createdAt": {
+    "$date": "2021-04-21T18:37:12.691Z"
+  },
+  "name": "Jane Doe",
+  "email": "janeDoe@walla.com",
+  "password": "$2b$10$c3vKvyCcV/R3XCfMEYCEOex9xWDuIavD/msGHxvqG1/Gi6Yp0YMfq",
+  "role": "user",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "608071ad4108b063305d0ec4"
+  },
+  "createdAt": {
+    "$date": "2021-04-21T18:40:09.737Z"
+  },
+  "name": "Lana Doe",
+  "email": "lanaD@walla.com",
+  "password": "$2b$10$Jq/pjMmUqGDMuuRS4q6qweJ1l/USTwYtvtVhju5fVPU0LkrR/9j2W",
+  "role": "user",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "608072004108b063305d0ec5"
+  },
+  "createdAt": {
+    "$date": "2021-04-21T18:40:09.737Z"
+  },
+  "name": "May Lin",
+  "email": "mayLin@walla.com",
+  "password": "$2b$10$H1OM7d.uJREEibpf..Oi9O5Mv5SAL1ZGDe9/kkOlWfVbLMW.vYoum",
+  "role": "user",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "608072814108b063305d0ec7"
+  },
+  "createdAt": {
+    "$date": "2021-04-21T18:40:09.737Z"
+  },
+  "name": "Ju Cher",
+  "email": "jCher@walla.com",
+  "password": "$2b$10$1lOvGYr4uysAd5ByD9Xa7.rXGYIdxKiUGAeen7zyxFT5aa4s/zD1a",
+  "role": "admin",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "608072b84108b063305d0ec9"
+  },
+  "createdAt": {
+    "$date": "2021-04-21T18:40:09.737Z"
+  },
+  "name": "moshe shalom",
+  "email": "shalomMoshe@walla.com",
+  "password": "$2b$10$Rld7LimA99zsoWvqTawMtewWQNvWa2zDr6ZC9F2AyPGcN18bZHCXm",
+  "role": "user",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "608072e34108b063305d0eca"
+  },
+  "createdAt": {
+    "$date": "2021-04-21T18:40:09.737Z"
+  },
+  "name": "Lily Lane",
+  "email": "lLanee@walla.com",
+  "password": "$2b$10$nAKiAND.6DG8DMTerkoXe.KPIj7jv5BEAOejR4y6PL7FT9emf/GJq",
+  "role": "user",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "608073534108b063305d0ecb"
+  },
+  "createdAt": {
+    "$date": "2021-04-21T18:40:09.737Z"
+  },
+  "name": "Ruth Shapira",
+  "email": "ruthShapir@gmail.com",
+  "password": "$2b$10$zQSa8H7PLw6maVMgr4VH5eF/DHQPcmsLQnygF5oKrz57XSM7qXxRu",
+  "role": "user",
+  "__v": 0
+}]
