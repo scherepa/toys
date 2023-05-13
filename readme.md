@@ -10,30 +10,30 @@ There were no demands for creating:
 
 ### __APIs for toys:__
 
-GET https://toys-nodejs-sv.herokuapp.com/toys -> all the toys
-GET https://toys-nodejs-sv.herokuapp.com/toys/?page=0&perpage=10 -> all toys by default
-GET https://toys-nodejs-sv.herokuapp.com/toys/?s={word} -> toys with word in name or information
-GET https://toys-nodejs-sv.herokuapp.com/toys/cat -> distinct categories
-GET https://toys-nodejs-sv.herokuapp.com/toys/cat/{catname} -> all toys in catname categoty
-GET https://toys-nodejs-sv.herokuapp.com/toys/prices -> all toys sorted by price in asc
-GET https://toys-nodejs-sv.herokuapp.com/toys/prices/?min=5&max=2000 all toys sorted by price within [min, max]
-GET https://toys-nodejs-sv.herokuapp.com/toys/prices/?reverse=ok -> all toys in reverse sort by price
-GET https://toys-nodejs-sv.herokuapp.com/toys/prices/?&sort={fildname} -> all toys sorted by fildname in asc
-POST https://toys-nodejs-sv.herokuapp.com/toys -> add toy with requied body accordin to toy model and token
-PUT https://toys-nodejs-sv.herokuapp.com/toys/{toyId} -> edit the toy with toyId, providing required body and token
-DELETE https://toys-nodejs-sv.herokuapp.com/toys/{toyId} -> delete the toy with toyId, providing token
+GET https://toys-nodejs-sv.cyclic.app/toys -> all the toys
+GET https://toys-nodejs-sv.cyclic.app/toys/?page=0&perpage=10 -> all toys by default
+GET https://toys-nodejs-sv.cyclic.app/toys/?s={word} -> toys with word in name or information
+GET https://toys-nodejs-sv.cyclic.app/toys/cat -> distinct categories
+GET https://toys-nodejs-sv.cyclic.app/toys/cat/{catname} -> all toys in catname categoty
+GET https://toys-nodejs-sv.cyclic.app/toys/prices -> all toys sorted by price in asc
+GET https://toys-nodejs-sv.cyclic.app/toys/prices/?min=5&max=2000 all toys sorted by price within [min, max]
+GET https://toys-nodejs-sv.cyclic.app/toys/prices/?reverse=ok -> all toys in reverse sort by price
+GET https://toys-nodejs-sv.cyclic.app/toys/prices/?&sort={fildname} -> all toys sorted by fildname in asc
+POST https://toys-nodejs-sv.cyclic.app/toys -> add toy with requied body accordin to toy model and token
+PUT https://toys-nodejs-sv.cyclic.app/toys/{toyId} -> edit the toy with toyId, providing required body and token
+DELETE https://toys-nodejs-sv.cyclic.app/toys/{toyId} -> delete the toy with toyId, providing token
 
 ### __APIs for users:__
 
-POST https://toys-nodejs-sv.herokuapp.com/users/login -> to login with email and password to get token
-POST https://toys-nodejs-sv.herokuapp.com/users -> to add new user with the required body
-GET https://toys-nodejs-sv.herokuapp.com/users/userInfo -> get user information, providing user token
+POST https://toys-nodejs-sv.cyclic.app/users/login -> to login with email and password to get token
+POST https://toys-nodejs-sv.cyclic.app/users -> to add new user with the required body
+GET https://toys-nodejs-sv.cyclic.app/users/userInfo -> get user information, providing user token
 
 
 
-* Standard Fronted View of https://toys-nodejs-sv.herokuapp.com/toys:
-  * ![toys](https://toys-nodejs-sv.herokuapp.com/iconic.png)
-  * Format: ![toys may be shown on: https://toys-nodejs-sv.herokuapp.com/toys.html](https://toys-nodejs-sv.herokuapp.com/toys.html)
+* Standard Fronted View of https://toys-nodejs-sv.cyclic.app/toys:
+  * ![toys](https://toys-nodejs-sv.cyclic.app/iconic.png)
+  * Format: ![toys may be shown on: https://toys-nodejs-sv.cyclic.app/toys.html](https://toys-nodejs-sv.herokuapp.com/toys.html)
 
 ### __DETAILED ROUTES for TOYS__
 
@@ -72,19 +72,19 @@ mongo connected
   * Send GET requirest via Postman to the:
 
 ```sh
-https://toys-nodejs-sv.herokuapp.com/toys
+https://toys-nodejs-sv.cyclic.app/toys
 ```
 
 > Note: by defoult it will take you to the:
 
 ```sh
-https://toys-nodejs-sv.herokuapp.com/toys/?page=0&perpage=10
+https://toys-nodejs-sv.cyclic.app/toys/?page=0&perpage=10
 ```
 
 * By going to the:
 
 ```sh
-https://toys-nodejs-sv.herokuapp.com/toys/?s=word
+https://toys-nodejs-sv.cyclic.app/toys/?s=word
 ```
 
 > Results with this word in name or information will be shown.
@@ -94,40 +94,40 @@ https://toys-nodejs-sv.herokuapp.com/toys/?s=word
 * GET all distinct categories:
 
 ```sh
-https://toys-nodejs-sv.herokuapp.com/toys/cat
+https://toys-nodejs-sv.cyclic.app/toys/cat
 ```
 
 * GET specific category:
 
 ```sh
-https://toys-nodejs-sv.herokuapp.com/toys/cat/catname
+https://toys-nodejs-sv.cyclic.app/toys/cat/catname
 ```
 
-> Note: catname is one of categories names from https://toys-nodejs-sv.herokuapp.com/toys/cat
+> Note: catname is one of categories names from https://toys-nodejs-sv.cyclic.app/toys/cat
  
 * GET toys by prices:
  
 ```sh
-https://toys-nodejs-sv.herokuapp.com/toys/prices/
+https://toys-nodejs-sv.cyclic.app/toys/prices/
 ```
 
 > Note: by default toys are sorted by price from 5 to 2000 in asc:
 
 ```sh
-https://toys-nodejs-sv.herokuapp.com/toys/prices/?min=5&max=2000
+https://toys-nodejs-sv.cyclic.app/toys/prices/?min=5&max=2000
 ```
 > Note: min/max values can be changed within [5, 2000], according to desiered result.
 
 * And to reverse the sort direction:
 
 ```sh
-https://toys-nodejs-sv.herokuapp.com/toys/prices/?reverse=ok
+https://toys-nodejs-sv.cyclic.app/toys/prices/?reverse=ok
 ```
 
 * To change sort criteria to another fildname:
 
 ```sh
-https://toys-nodejs-sv.herokuapp.com/toys/prices/?&sort=fildname
+https://toys-nodejs-sv.cyclic.app/toys/prices/?&sort=fildname
 ```
 
 > To make any changes in toys collection there is a need to login via Postman, with the email and password of one of the users get token to use for 1 hour.
@@ -150,7 +150,7 @@ https://toys-nodejs-sv.herokuapp.com/toys/prices/?&sort=fildname
   * Send Post requirest via Postman to the:
 
 ```sh
-https://toys-nodejs-sv.herokuapp.com/toys
+https://toys-nodejs-sv.cyclic.app/toys
 ```
 
 ### PUT and DELETE
@@ -166,7 +166,7 @@ https://toys-nodejs-sv.herokuapp.com/toys
     * PUT to update it.
 
 ```sh
-https://toys-nodejs-sv.herokuapp.com/toys/thisToyId
+https://toys-nodejs-sv.cyclic.app/toys/thisToyId
 ```
 
 ### __Users__
@@ -177,7 +177,7 @@ https://toys-nodejs-sv.herokuapp.com/toys/thisToyId
   * Send POST requirest via Postman to the:
 
 ```sh
-https://toys-nodejs-sv.herokuapp.com/users
+https://toys-nodejs-sv.cyclic.app/users
 ```
 
 * To logIn:
@@ -185,7 +185,7 @@ https://toys-nodejs-sv.herokuapp.com/users
   * Send POST requirest via Postman to the:
 
 ```sh
-https://toys-nodejs-sv.herokuapp.com/users/login
+https://toys-nodejs-sv.cyclic.app/users/login
 ```
 
 > Note: for this project only all the passwords are: 123
@@ -202,7 +202,7 @@ https://toys-nodejs-sv.herokuapp.com/users/login
   * Send GET requirest via Postman to the:
 
 ```sh
-https://toys-nodejs-sv.herokuapp.com/users/userInfo
+https://toys-nodejs-sv.cyclic.app/users/userInfo
 ```
 
 ###### Creator: Tcherepanova Svetlana
