@@ -5625,57 +5625,57 @@
     <h3 class="code-line" data-line-start=10 data-line-end=11><a id="__APIs_for_toys___10"></a><strong>APIs for
             toys:</strong></h3>
     <p class="has-line-data" data-line-start="12" data-line-end="24">GET <a
-            href="https://toys-nodejs-sv.herokuapp.com/toys">https://toys-nodejs-sv.herokuapp.com/toys</a> -&gt; all the
+            href="https://toys-nodejs-sv.cyclic.app/toys">https://toys-nodejs-sv.cyclic.app/toys</a> -&gt; all the
             toys<br>
         GET <a
-            href="https://toys-nodejs-sv.herokuapp.com/toys/?page=0&amp;perpage=10">https://toys-nodejs-sv.herokuapp.com/toys/?page=0&amp;perpage=10</a>
+            href="https://toys-nodejs-sv.cyclic.app/toys/?page=0&amp;perpage=10">https://toys-nodejs-sv.cyclic.app/toys/?page=0&amp;perpage=10</a>
         -&gt; all toys by default<br>
         GET <a
-            href="https://toys-nodejs-sv.herokuapp.com/toys/?s=%7Bword%7D">https://toys-nodejs-sv.herokuapp.com/toys/?s={word}</a>
+            href="https://toys-nodejs-sv.cyclic.app/toys/?s=%7Bword%7D">https://toys-nodejs-sv.cyclic.app/toys/?s={word}</a>
         -&gt; toys with
         word in name or information<br>
-        GET <a href="https://toys-nodejs-sv.herokuapp.com/toys/cat">https://toys-nodejs-sv.herokuapp.com/toys/cat</a>
+        GET <a href="https://toys-nodejs-sv.cyclic.app/toys/cat">https://toys-nodejs-sv.cyclic.app/toys/cat</a>
         -&gt; distinct
         categories<br>
         GET <a
-            href="https://toys-nodejs-sv.herokuapp.com/toys/cat/%7Bcatname%7D">https://toys-nodejs-sv.herokuapp.com/toys/cat/{catname}</a>
+            href="https://toys-nodejs-sv.cyclic.app/toys/cat/%7Bcatname%7D">https://toys-nodejs-sv.cyclic.app/toys/cat/{catname}</a>
         -&gt;
         all toys in catname categoty<br>
         GET <a
-            href="https://toys-nodejs-sv.herokuapp.com/toys/prices">https://toys-nodejs-sv.herokuapp.com/toys/prices</a>
+            href="https://toys-nodejs-sv.cyclic.app/toys/prices">https://toys-nodejs-sv.cyclic.app/toys/prices</a>
         -&gt; all
         toys sorted by
         price in asc<br>
         GET <a
-            href="https://toys-nodejs-sv.herokuapp.com/toys/prices/?min=5&amp;max=2000">https://toys-nodejs-sv.herokuapp.com/toys/prices/?min=5&amp;max=2000</a>
+            href="https://toys-nodejs-sv.cyclic.app/toys/prices/?min=5&amp;max=2000">https://toys-nodejs-sv.cyclic.app/toys/prices/?min=5&amp;max=2000</a>
         all toys sorted by price within [min, max]<br>
         GET <a
-            href="https://toys-nodejs-sv.herokuapp.com/toys/prices/?reverse=ok">https://toys-nodejs-sv.herokuapp.com/toys/prices/?reverse=ok</a>
+            href="https://toys-nodejs-sv.cyclic.app/toys/prices/?reverse=ok">https://toys-nodejs-sv.cyclic.app/toys/prices/?reverse=ok</a>
         -&gt; all toys in reverse sort by price<br>
         GET <a
-            href="https://toys-nodejs-sv.herokuapp.com/toys/prices/?&amp;sort=%7Bfildname%7D">https://toys-nodejs-sv.herokuapp.com/toys/prices/?&amp;sort={fildname}</a>
+            href="https://toys-nodejs-sv.cyclic.app/toys/prices/?&amp;sort=%7Bfildname%7D">https://toys-nodejs-sv.cyclic.app/toys/prices/?&amp;sort={fildname}</a>
         -&gt; all toys sorted by fildname in asc<br>
-        POST https://toys-nodejs-sv.herokuapp.com/toys -&gt; add toy with requied body according to toy model and
+        POST https://toys-nodejs-sv.cyclic.app/toys -&gt; add toy with requied body according to toy model and
         token<br>
-        PUT https://toys-nodejs-sv.herokuapp.com/toys/{toyId} -&gt; edit the toy with toyId, providing required body and
+        PUT https://toys-nodejs-sv.cyclic.app/toys/{toyId} -&gt; edit the toy with toyId, providing required body and
         token<br>
-        DELETE https://toys-nodejs-sv.herokuapp.com/toys/{toyId} -&gt; delete the toy with toyId, providing token</p>
+        DELETE https://toys-nodejs-sv.cyclic.app/toys/{toyId} -&gt; delete the toy with toyId, providing token</p>
     <h3 class="code-line" data-line-start=25 data-line-end=26><a id="__APIs_for_users___25"></a><strong>APIs for
             users:</strong></h3>
     <p class="has-line-data" data-line-start="27" data-line-end="30">POST
-        https://toys-nodejs-sv.herokuapp.com/users/login -&gt; to login with
+        https://toys-nodejs-sv.cyclic.app/users/login -&gt; to login with
         email and password to get token<br>
-        POST https://toys-nodejs-sv.herokuapp.com/users -&gt; to add new user with the required body<br>
-        GET https://toys-nodejs-sv.herokuapp.com/users/userInfo -&gt; get user information, providing user token</p>
+        POST https://toys-nodejs-sv.cyclic.app/users -&gt; to add new user with the required body<br>
+        GET https://toys-nodejs-sv.cyclic.app/users/userInfo -&gt; get user information, providing user token</p>
     <ul>
         <li class="has-line-data" data-line-start="33" data-line-end="37">Standard Fronted View of <a
-                href="https://toys-nodejs-sv.herokuapp.com/toys">https://toys-nodejs-sv.herokuapp.com/toys:</a>
+                href="https://toys-nodejs-sv.cyclic.app/toys">https://toys-nodejs-sv.cyclic.app/toys:</a>
             <ul>
                 <li class="has-line-data" data-line-start="34" data-line-end="35"><img
                         src="https://toys-nodejs-sv.herokuapp.com/iconic.png" alt="toys"></li>
                 <li class="has-line-data" data-line-start="35" data-line-end="37">Format: <img
                         src="https://toys-nodejs-sv.herokuapp.comtoys.html"
-                        alt="toys may be shown on: https://toys-nodejs-sv.herokuapp.com/toys.html"></li>
+                        alt="toys may be shown on: https://toys-nodejs-sv.cyclic.app/toys.html"></li>
             </ul>
         </li>
     </ul>
@@ -5720,17 +5720,17 @@ mongo connected
             </ul>
         </li>
     </ul>
-    <pre><code class="has-line-data" data-line-start="74" data-line-end="76" class="language-sh">https://toys-nodejs-sv.herokuapp.com/toys
+    <pre><code class="has-line-data" data-line-start="74" data-line-end="76" class="language-sh">https://toys-nodejs-sv.cyclic.app/toys
 </code></pre>
     <blockquote>
         <p class="has-line-data" data-line-start="77" data-line-end="78">Note: by defoult it will take you to the:</p>
     </blockquote>
-    <pre><code class="has-line-data" data-line-start="80" data-line-end="82" class="language-sh">https://toys-nodejs-sv.herokuapp.com/toys/?page=<span class="hljs-number">0</span>&amp;perpage=<span class="hljs-number">10</span>
+    <pre><code class="has-line-data" data-line-start="80" data-line-end="82" class="language-sh">https://toys-nodejs-sv.cyclic.app/toys/?page=<span class="hljs-number">0</span>&amp;perpage=<span class="hljs-number">10</span>
 </code></pre>
     <ul>
         <li class="has-line-data" data-line-start="83" data-line-end="85">By going to the:</li>
     </ul>
-    <pre><code class="has-line-data" data-line-start="86" data-line-end="88" class="language-sh">https://toys-nodejs-sv.herokuapp.com/toys/?s=word
+    <pre><code class="has-line-data" data-line-start="86" data-line-end="88" class="language-sh">https://toys-nodejs-sv.cyclic.app/toys/?s=word
 </code></pre>
     <blockquote>
         <p class="has-line-data" data-line-start="89" data-line-end="90">Results with this word in name or information
@@ -5743,28 +5743,28 @@ mongo connected
     <ul>
         <li class="has-line-data" data-line-start="93" data-line-end="95">GET all distinct categories:</li>
     </ul>
-    <pre><code class="has-line-data" data-line-start="96" data-line-end="98" class="language-sh">https://toys-nodejs-sv.herokuapp.com/toys/cat
+    <pre><code class="has-line-data" data-line-start="96" data-line-end="98" class="language-sh">https://toys-nodejs-sv.cyclic.app/toys/cat
 </code></pre>
     <ul>
         <li class="has-line-data" data-line-start="99" data-line-end="101">GET specific category:</li>
     </ul>
-    <pre><code class="has-line-data" data-line-start="102" data-line-end="104" class="language-sh">https://toys-nodejs-sv.herokuapp.com/toys/cat/catname
+    <pre><code class="has-line-data" data-line-start="102" data-line-end="104" class="language-sh">https://toys-nodejs-sv.cyclic.app/toys/cat/catname
 </code></pre>
     <blockquote>
         <p class="has-line-data" data-line-start="105" data-line-end="106">Note: catname is one of categories names from
-            <a href="https://toys-nodejs-sv.herokuapp.com/toys/cat">https://toys-nodejs-sv.herokuapp.com/toys/cat</a>
+            <a href="https://toys-nodejs-sv.herokuapp.com/toys/cat">https://toys-nodejs-sv.cyclic.app/toys/cat</a>
             </p>
     </blockquote>
     <ul>
         <li class="has-line-data" data-line-start="107" data-line-end="109">GET toys by prices:</li>
     </ul>
-    <pre><code class="has-line-data" data-line-start="110" data-line-end="112" class="language-sh">https://toys-nodejs-sv.herokuapp.com/toys/prices/
+    <pre><code class="has-line-data" data-line-start="110" data-line-end="112" class="language-sh">https://toys-nodejs-sv.cyclic.app/toys/prices/
 </code></pre>
     <blockquote>
         <p class="has-line-data" data-line-start="113" data-line-end="114">Note: by default toys are sorted by price
             from 5 to 2000 in asc:</p>
     </blockquote>
-    <pre><code class="has-line-data" data-line-start="116" data-line-end="118" class="language-sh">https://toys-nodejs-sv.herokuapp.com/toys/prices/?min=<span class="hljs-number">5</span>&amp;max=<span class="hljs-number">2000</span>
+    <pre><code class="has-line-data" data-line-start="116" data-line-end="118" class="language-sh">https://toys-nodejs-sv.cyclic.app/toys/prices/?min=<span class="hljs-number">5</span>&amp;max=<span class="hljs-number">2000</span>
 </code></pre>
     <blockquote>
         <p class="has-line-data" data-line-start="118" data-line-end="119">Note: min/max values can be changed within
@@ -5773,13 +5773,13 @@ mongo connected
     <ul>
         <li class="has-line-data" data-line-start="120" data-line-end="122">And to reverse the sort direction:</li>
     </ul>
-    <pre><code class="has-line-data" data-line-start="123" data-line-end="125" class="language-sh">https://toys-nodejs-sv.herokuapp.com/toys/prices/?reverse=ok
+    <pre><code class="has-line-data" data-line-start="123" data-line-end="125" class="language-sh">https://toys-nodejs-sv.cyclic.app/toys/prices/?reverse=ok
 </code></pre>
     <ul>
         <li class="has-line-data" data-line-start="126" data-line-end="128">To change sort criteria to another fildname:
         </li>
     </ul>
-    <pre><code class="has-line-data" data-line-start="129" data-line-end="131" class="language-sh">https://toys-nodejs-sv.herokuapp.com/toys/prices/?&amp;sort=fildname
+    <pre><code class="has-line-data" data-line-start="129" data-line-end="131" class="language-sh">https://toys-nodejs-sv.cyclic.app/toys/prices/?&amp;sort=fildname
 </code></pre>
     <blockquote>
         <p class="has-line-data" data-line-start="132" data-line-end="134">To make any changes in toys collection there
@@ -5827,7 +5827,7 @@ mongo connected
             </ul>
         </li>
     </ul>
-    <pre><code class="has-line-data" data-line-start="152" data-line-end="154" class="language-sh">https://toys-nodejs-sv.herokuapp.com/toys
+    <pre><code class="has-line-data" data-line-start="152" data-line-end="154" class="language-sh">https://toys-nodejs-sv.cyclic.app/toys
 </code></pre>
     <h3 class="code-line" data-line-start=155 data-line-end=156><a id="PUT_and_DELETE_155"></a>PUT and DELETE</h3>
     <ul>
@@ -5859,7 +5859,7 @@ mongo connected
             </ul>
         </li>
     </ul>
-    <pre><code class="has-line-data" data-line-start="168" data-line-end="170" class="language-sh">https://toys-nodejs-sv.herokuapp.com/toys/thisToyId
+    <pre><code class="has-line-data" data-line-start="168" data-line-end="170" class="language-sh">https://toys-nodejs-sv.cyclic.app/toys/thisToyId
 </code></pre>
     <h3 class="code-line" data-line-start=171 data-line-end=172><a id="__Users___171"></a><strong>Users</strong></h3>
     <h3 class="code-line" data-line-start=173 data-line-end=174><a id="POST_173"></a>POST</h3>
@@ -5871,7 +5871,7 @@ mongo connected
             </ul>
         </li>
     </ul>
-    <pre><code class="has-line-data" data-line-start="179" data-line-end="181" class="language-sh">https://toys-nodejs-sv.herokuapp.com/users
+    <pre><code class="has-line-data" data-line-start="179" data-line-end="181" class="language-sh">https://toys-nodejs-sv.cyclic.app/users
 </code></pre>
     <ul>
         <li class="has-line-data" data-line-start="182" data-line-end="186">
@@ -5882,7 +5882,7 @@ mongo connected
             </ul>
         </li>
     </ul>
-    <pre><code class="has-line-data" data-line-start="187" data-line-end="189" class="language-sh">https://toys-nodejs-sv.herokuapp.com/users/login
+    <pre><code class="has-line-data" data-line-start="187" data-line-end="189" class="language-sh">https://toys-nodejs-sv.cyclic.app/users/login
 </code></pre>
     <blockquote>
         <p class="has-line-data" data-line-start="190" data-line-end="192">Note: for this project only all the passwords
@@ -5913,7 +5913,7 @@ mongo connected
             </ul>
         </li>
     </ul>
-    <pre><code class="has-line-data" data-line-start="204" data-line-end="206" class="language-sh">https://toys-nodejs-sv.herokuapp.com/users/userInfo
+    <pre><code class="has-line-data" data-line-start="204" data-line-end="206" class="language-sh">https://toys-nodejs-sv.cyclic.app/users/userInfo
 </code></pre>
     <h6 class="code-line" data-line-start=207 data-line-end=208><a id="Creator_Tcherepanova_Svetlana_207"></a>Creator:
         Tcherepanova Svetlana</h6>
