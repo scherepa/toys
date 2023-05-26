@@ -21,7 +21,7 @@ const doApi = async() => {
 
 const createToy = (_ar) => {
   _ar.map(item => {
-    let nFood = new NewToy("#id_row",item);
-    nFood.render();
+    let nToy = new NewToy("#id_row",item);
+    nToy.render();
   })
 }
