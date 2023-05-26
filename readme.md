@@ -31,9 +31,8 @@ GET https://toys-nodejs-sv.cyclic.app/users/userInfo -> get user information, pr
 
 
 
-* Standard Fronted View of https://toys-nodejs-sv.cyclic.app/toys:
+* Standard Fronted View of this app https://toys-nodejs-sv.cyclic.app/iconic.png:
   * ![toys](/iconic.png)
-  * Format: ![toys may be shown on: https://toys-nodejs-sv.cyclic.app/toys.html](/toys.html)
 
 ### __DETAILED ROUTES for TOYS__
 
