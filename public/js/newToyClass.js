@@ -17,9 +17,9 @@ class NewToy{
         <img src="${this.image}" alt="${this.name} "class="h-100">
       </div>
       <div class="card-body text-center d-flex flex-column justify-content-between">
-        <p class="fw-bold">NAME: ${this.name}
-        <br><em>CAT: ${this.cat}</em></p>
-        <div class="align-self-center">PRICE: ${this.price} NIS</div>
+        <p class="">name: <strong>${this.name.toUpperCase()}</strong>
+        <br><br><em>category: ${this.cat.toLowerCase().replace('&', ' & ')}</em></p>
+        <div class="align-self-end"><strong> ${this.price} nis</strong></div>
       </div>
   </div>
     `
