@@ -7,7 +7,7 @@ const init = () => {
 }
 
 const doApi = async() => {
-  let url = "https://toys-nodejs-sv.cyclic.com/toys"
+  let url = "https://toys-nodejs-sv.cyclic.app/toys"
   try{
   let resp = await fetch(url);
   let data = await resp.json();
